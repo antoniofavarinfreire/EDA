@@ -11,3 +11,4 @@ int busca (NoABB *r, int k);
 void show_arvore(NoABB *r);
 int cria();
 int verifica (NoABB *r);
+void insere (NoABB *r, int k);

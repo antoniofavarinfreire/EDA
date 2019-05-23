@@ -1,4 +1,4 @@
-#define NULL = 0; 
+#define NULL = 0;
 typedef struct noABB{
     int chave;
     int conteudo;
@@ -6,5 +6,8 @@ typedef struct noABB{
     struct noABB *direita;
 }NoABB;
 
-int cria (NoABB pp, int k);
-int busca (NoABB r, int k)
+int cria (NoABB *r);
+int busca (NoABB *r, int k);
+void show_arvore(NoABB *r);
+int cria();
+int verifica (NoABB *r);
